@@ -7650,8 +7650,7 @@
                 "2ebac764-bebb-4707-920b-2a975675b2cb"
             ],
             "type": "TOPDOWN",
-            "symbol": "scene_sample_town",
-            "playerSpriteSheetId": "3490d8f0-66ee-4e86-a077-694e7d93d750"
+            "symbol": "scene_sample_town"
         },
         {
             "id": "5e64882f-8ce6-423e-b582-70fdb2142ff6",
@@ -8678,8 +8677,7 @@
                 "444c886c-6214-48d7-8e3c-4dca4f65dec7"
             ],
             "type": "TOPDOWN",
-            "symbol": "scene_cave",
-            "playerSpriteSheetId": "3490d8f0-66ee-4e86-a077-694e7d93d750"
+            "symbol": "scene_cave"
         },
         {
             "id": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
@@ -9725,8 +9723,7 @@
                 0
             ],
             "type": "TOPDOWN",
-            "symbol": "scene_top_house",
-            "playerSpriteSheetId": "3490d8f0-66ee-4e86-a077-694e7d93d750"
+            "symbol": "scene_top_house"
         },
         {
             "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
@@ -58192,11 +58189,11 @@
     "spriteSheets": [
         {
             "id": "3490d8f0-66ee-4e86-a077-694e7d93d750",
-            "name": "GJ23_Owl",
+            "name": "Stump_PLY_Owl",
             "symbol": "sprite_stump_ply_owl",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "GJ23_Owl.png",
+            "filename": "Stump_PLY_Owl.png",
             "checksum": "336746c20ed65e9a804ff8b2810b1ecd76fa4d9d",
             "width": 96,
             "height": 16,
@@ -70948,9 +70945,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1548,
-        "worldScrollY": 139,
-        "zoom": 225,
+        "worldScrollX": 731,
+        "worldScrollY": 100,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
