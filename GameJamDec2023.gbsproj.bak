@@ -44951,7 +44951,7 @@
                     "id": "781e96d2-e79f-4eb1-8e65-1bd9545540b3",
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "a02c8ee7-1478-4317-80d7-1c3fc9704e8d",
+                        "customEventId": "df9d6b58-f06c-42c2-bccd-566aac7969ee",
                         "__name": "Init Weapons"
                     },
                     "children": {
