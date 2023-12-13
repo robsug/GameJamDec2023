@@ -41795,9 +41795,17 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_27",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "2fe3aa9b-1ada-4d85-91f0-b1f4f9dcc910"
+                            },
+                            "id": "0e001f61-5407-4a8b-8228-93e550ecf5d7"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -41818,12 +41826,20 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_28",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
-                    "hit1Script": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "2fe3aa9b-1ada-4d85-91f0-b1f4f9dcc910"
+                            },
+                            "id": "299e0480-3683-46b9-905d-150abc4d9747"
+                        }
+                    ],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "42ae7af4-b797-4ee3-bdf2-bbb135b10b48",
@@ -41944,6 +41960,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "cb931767-289a-4ddc-8753-e392b1c52276",
+            "name": "GJ23_titlescreen",
+            "symbol": "bg_gj23_titlescreen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "GJ23_titlescreen.png"
+        },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
             "name": "black",
@@ -71508,7 +71534,7 @@
             "symbol": "sound_gbstudio_sfx_sav",
             "filename": "Tronimal_Sound_Effects.sav",
             "type": "fxhammer",
-            "inode": "562949953422003",
+            "inode": "28664989",
             "_v": 1661702554742
         }
     ],
@@ -71722,7 +71748,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 53,
-        "worldScrollY": 1069,
+        "worldScrollY": 1310,
         "zoom": 91.96371588855982,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -71751,9 +71777,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            588,
-            180,
-            180
+            410,
+            125,
+            125
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
