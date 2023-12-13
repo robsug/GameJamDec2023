@@ -41795,8 +41795,8 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-                    "direction": "down",
+                    "spriteSheetId": "14e0e3ae-73b1-474b-b1ea-7933d0e48d96",
+                    "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -41826,8 +41826,8 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-                    "direction": "down",
+                    "spriteSheetId": "14e0e3ae-73b1-474b-b1ea-7933d0e48d96",
+                    "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -41888,19 +41888,27 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-                    "direction": "down",
+                    "spriteSheetId": "14e0e3ae-73b1-474b-b1ea-7933d0e48d96",
+                    "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_30",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
-                    "hit1Script": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "2fe3aa9b-1ada-4d85-91f0-b1f4f9dcc910"
+                            },
+                            "id": "e65deee5-6d02-4726-a816-c6bc4d151301"
+                        }
+                    ],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "733ec26f-3abd-4627-beb8-0a962ab59b36",
@@ -41975,6 +41983,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "e3790679-4e69-4678-b693-76f67a18a01e",
+            "name": "GJ23_titlescreen",
+            "symbol": "bg_gj23_titlescreen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "GJ23_titlescreen.png"
+        },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
             "name": "black",
@@ -58455,6 +58473,37 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "50671b64-0c2b-4c72-a24e-24c08cab8fd0",
+                                    "tiles": [
+                                        {
+                                            "id": "714a7545-cfe9-4afe-98a2-1a0e216ab9be",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 80,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "060619f9-52eb-4bfd-879c-3dc65ce8b8dc",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 88,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -58500,6 +58549,37 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "19a4e922-ee60-4635-aae7-fab560cf957c",
+                                    "tiles": [
+                                        {
+                                            "id": "61892ef4-8ca7-44ae-9464-a5c9bcb505cd",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 48,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "a87471c8-adf4-4bc1-bcc3-0359c713e03c",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 56,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -58533,6 +58613,37 @@
                                             "palette": 0,
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "a586409e-652e-43fd-9f94-4bc3702becb6",
+                                    "tiles": [
+                                        {
+                                            "id": "1787b48f-3a37-4fef-955d-869515f682e9",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "6e13c915-c438-44b2-b8cf-799d8bd25af3",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -71617,7 +71728,7 @@
             "symbol": "sound_gbstudio_sfx_sav",
             "filename": "Tronimal_Sound_Effects.sav",
             "type": "fxhammer",
-            "inode": "1125899908971050",
+            "inode": "562949953422003",
             "_v": 1661702554742
         }
     ],
@@ -71830,9 +71941,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 453,
-        "worldScrollY": 9017,
-        "zoom": 463.33717366307974,
+        "worldScrollX": 348,
+        "worldScrollY": 3713,
+        "zoom": 213.33717366307974,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -71860,9 +71971,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            441,
-            205,
-            320
+            433,
+            201,
+            314
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
